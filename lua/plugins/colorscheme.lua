@@ -1,12 +1,9 @@
 return {
-  -- add gruvbox
-  { "arzg/vim-colors-xcode" },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "xcodedark",
-    },
-  },
+  { "arzg/vim-colors-xcode" }, -- xcodedark
+  { "catppuccin/nvim" }, -- catppuccin
+  { "ellisonleao/gruvbox.nvim" }, -- gruvbox
+  { "navarasu/onedark.nvim" }, -- onedark
+  { "rebelot/kanagawa.nvim" }, -- kanagawa
+  { "sainnhe/everforest" }, -- everforest
+  { "EdenEast/nightfox.nvim" }, -- nightfox
 }
