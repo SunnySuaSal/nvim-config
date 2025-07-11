@@ -1,3 +1,4 @@
+#Archivos generados automaticamente
 tt.*
 .tests
 doc/tags
@@ -6,3 +7,19 @@ debug
 foo.*
 *.log
 data
+*.swp
+*.swo
+*.tmp
+*.bak
+*.aux
+*.fls
+*.fdb_latexmk
+*.pdf
+
+#Lazy lockfiles
+lazy-lock.json
+
+#Archivos de sincronización temporal
+*.synctex.gz
+
+#Archivos personales que no deseo compartir
